@@ -1,3 +1,43 @@
+# Projet
+
+Le but du projet est de programmer un interpréteur de commandes (aka shell) interactif reprenant quelques fonctionnalités plus ou moins classiques des shells usuels : outre la possibilité d'exécuter toutes les commandes externes, `slash` devra proposer quelques commandes internes, permettre la redirection des flots standard ainsi que les combinaisons par tube, adapter le prompt à la situation, et permettre l'expansion des chemins contenant certains jokers décrits ci-dessous.
+
+## Contributeurs
+
+| Nom       | Prénom  | Github            |
+|:----------|:--------|:------------------|
+| RODRIGUEZ | Lucas   | @ryohkn           |
+| VYSHKA    | Tedi    | @tedivyshka       |
+| MARTINEAU | Clément | @clementmartineau |
+
+## Installation et utilisation
+
+1. Cloner le dépôt
+
+```bash
+git clone https://github.com/ryohkhn/Slash.git
+# or
+git clone git@github.com:ryohkhn/Slash.git
+```
+
+2. Build
+
+```shell
+make
+```
+
+3. Exécution
+
+```shell
+./slash
+```
+
+4. Suppression des fichiers compilés
+
+```shell
+make clean
+```
+
 ## Architecture logicielle
 
 Le programme Slash se compose de 7 fichiers en langage C et un fichier makefile pour la compilation.  
