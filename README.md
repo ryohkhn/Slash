@@ -6,7 +6,7 @@ Le but du projet est de programmer un interpréteur de commandes (aka shell) int
 
 | Nom       | Prénom  | Github            |
 |:----------|:--------|:------------------|
-| RODRIGUEZ | Lucas   | @ryohkn           |
+| RODRIGUEZ | Lucas   | @ryohkhn          |
 | VYSHKA    | Tedi    | @tedivyshka       |
 | MARTINEAU | Clément | @clementmartineau |
 
